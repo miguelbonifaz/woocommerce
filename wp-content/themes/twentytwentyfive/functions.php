@@ -156,3 +156,57 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
+// Add debug function for specific URL
+if ( ! function_exists( 'debug_cart_url' ) ) :
+    function debug_cart_url() {
+        // Verifica si la URL contiene '/cart/'
+        if ( strpos($_SERVER['REQUEST_URI'], '/cart/') !== false ) {
+            // Asegúrate de que WooCommerce está activo
+            if ( ! class_exists( 'WooCommerce' ) ) {
+                return;
+            }
+
+            // Limpia el carrito actual
+            WC()->cart->empty_cart();
+            
+            // Extrae la parte después de /cart/
+            if (preg_match('/\/cart\/([^\/]+)/', $_SERVER['REQUEST_URI'], $url_matches)) {
+                $products_string = $url_matches[1];
+                $products_array = explode(',', $products_string);
+                $all_products_valid = true;
+                
+                foreach ($products_array as $product) {
+                    if (preg_match('/(\d+):(\d+)/', $product, $matches)) {
+                        $product_id = $matches[1];
+                        $quantity = $matches[2];
+                        
+                        // Verifica si el producto existe
+                        $product = wc_get_product($product_id);
+                        if ($product && $product->is_purchasable()) {
+                            // Agrega el producto al carrito
+                            $added = WC()->cart->add_to_cart($product_id, $quantity);
+                            if (!$added) {
+                                $all_products_valid = false;
+                                error_log("Error al agregar producto ID: {$product_id}");
+                            }
+                        } else {
+                            $all_products_valid = false;
+                            error_log("Producto no válido o no comprable ID: {$product_id}");
+                        }
+                    }
+                }
+                
+                // Redirecciona al checkout si todos los productos se agregaron correctamente
+                if ($all_products_valid) {
+                    wp_safe_redirect(wc_get_checkout_url());
+                    exit;
+                } else {
+                    wp_safe_redirect(wc_get_cart_url());
+                    exit;
+                }
+            }
+        }
+    }
+endif;
+add_action('wp_loaded', 'debug_cart_url');
