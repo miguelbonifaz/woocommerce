@@ -160,8 +160,8 @@ endif;
 // Add debug function for specific URL
 if ( ! function_exists( 'debug_cart_url' ) ) :
     function debug_cart_url() {
-        // Verifica si la URL contiene '/cart/'
-        if ( strpos($_SERVER['REQUEST_URI'], '/cart/') !== false ) {
+        // Verifica si la URL contiene '/jelou-cart/'
+        if ( strpos($_SERVER['REQUEST_URI'], '/jelou-cart/') !== false ) {
             // Asegúrate de que WooCommerce está activo
             if ( ! class_exists( 'WooCommerce' ) ) {
                 return;
@@ -170,8 +170,8 @@ if ( ! function_exists( 'debug_cart_url' ) ) :
             // Limpia el carrito actual
             WC()->cart->empty_cart();
             
-            // Extrae la parte después de /cart/
-            if (preg_match('/\/cart\/([^\/]+)/', $_SERVER['REQUEST_URI'], $url_matches)) {
+            // Extrae la parte después de /jelou-cart/
+            if (preg_match('/\/jelou-cart\/([^\/]+)/', $_SERVER['REQUEST_URI'], $url_matches)) {
                 $products_string = $url_matches[1];
                 $products_array = explode(',', $products_string);
                 $all_products_valid = true;
