@@ -1,0 +1,1190 @@
+2024-12-31T16:30:56+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9ef378f6aed0cdad3ddfa93382326b7a
+            [Date] => Dic 31, 2024 @ 16:30
+            [URL] => https://60a0-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.22049
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => OBS58wjkdPLN4TYR5wrm7uMxIwYI5preVyTuzkCJ5r0=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9ef378f6aed0cdad3ddfa93382326b7a
+                        )
+
+                )
+
+            [Body] => {\"id\":136,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T11:27:26\",\"date_modified\":\"2024-12-31T11:30:55\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_8WhQTlTN0NC2k\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"136\",\"meta_data\":[{\"id\":327,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":328,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":326,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":329,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":340,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":338,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":335,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":337,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"37\"},{\"id\":336,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":333,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":339,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":334,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":330,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":115,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":117,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":849,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/136\\/?pay_for_order=true&key=wc_order_8WhQTlTN0NC2k\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T16:27:26\",\"date_modified_gmt\":\"2024-12-31T16:30:55\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/136\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 16:30:56 GMT
+                                    [host] => 60a0-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X6f528486255779fa818df2c9d59e7b2c
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T16:36:52+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 69f9ee1721cbdecf1e80926403641b28
+            [Date] => Dic 31, 2024 @ 16:36
+            [URL] => https://60a0-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.26687
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => GkU/vFpwQwfVu+ZuRDLvPQDtcLywtKViZryAZ9f1D5M=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 69f9ee1721cbdecf1e80926403641b28
+                        )
+
+                )
+
+            [Body] => {\"id\":137,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T11:31:59\",\"date_modified\":\"2024-12-31T11:33:14\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_vidpjWzLGdOe4\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"137\",\"meta_data\":[{\"id\":342,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":343,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":341,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":344,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":355,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":353,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":350,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":352,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"40\"},{\"id\":351,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":348,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":354,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":349,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":345,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":118,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":121,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":876,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/137\\/?pay_for_order=true&key=wc_order_vidpjWzLGdOe4\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T16:31:59\",\"date_modified_gmt\":\"2024-12-31T16:33:14\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/137\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 16:36:51 GMT
+                                    [host] => 60a0-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X3e882a9488ce8c965f41b896cc906404
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:09:08+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 858c3e985aa21ee97f6bc3ea0e3d7ce2
+            [Date] => Dic 31, 2024 @ 17:09
+            [URL] => http://127.0.0.1:8000/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 0.21066
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => Sk6k43v/7IeeU7jpdN4/8VhMrSIhucY6UJaHrVbduXU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 858c3e985aa21ee97f6bc3ea0e3d7ce2
+                        )
+
+                )
+
+            [Body] => {\"id\":141,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:08:44\",\"date_modified\":\"2024-12-31T12:09:07\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_isvXuz1BOt08r\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"141\",\"meta_data\":[{\"id\":405,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":406,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":404,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":407,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":418,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":416,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":413,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":415,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"52\"},{\"id\":414,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":411,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":417,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":412,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":408,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":134,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":136,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":984,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/141\\/?pay_for_order=true&key=wc_order_isvXuz1BOt08r\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:08:44\",\"date_modified_gmt\":\"2024-12-31T17:09:07\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/141\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => No se ha facilitado una URL válida.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:19:49+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9faa48bd19ffb79bbd395390e5f96233
+            [Date] => Dic 31, 2024 @ 17:19
+            [URL] => http://127.0.0.1:8000/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 0.21484
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => fXVFrdsGzZDrgqST18vmiBtRxLSN7UvgYEkVhp4lg0k=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9faa48bd19ffb79bbd395390e5f96233
+                        )
+
+                )
+
+            [Body] => {\"id\":142,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:10:33\",\"date_modified\":\"2024-12-31T12:10:41\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_YpAsuAtbQSIQz\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"142\",\"meta_data\":[{\"id\":420,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":421,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":419,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":422,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":433,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":431,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":428,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":430,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"54\"},{\"id\":429,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":426,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":432,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":427,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":423,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":137,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":139,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1005,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/142\\/?pay_for_order=true&key=wc_order_YpAsuAtbQSIQz\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:10:33\",\"date_modified_gmt\":\"2024-12-31T17:10:41\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/142\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => No se ha facilitado una URL válida.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:20:07+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 42ccb95e52a3866b2a04c8125169b7e3
+            [Date] => Dic 31, 2024 @ 17:20
+            [URL] => http://127.0.0.1:8000/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 0.20301
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => I7fD/BC//HrSUYng1ouihMHDrtizcyfdiQa5C3cIZ6E=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 42ccb95e52a3866b2a04c8125169b7e3
+                        )
+
+                )
+
+            [Body] => {\"id\":143,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:19:49\",\"date_modified\":\"2024-12-31T12:20:07\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_xB7OMB75HmXLh\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4dd9fea638c8506589640eb571cfc4b8\",\"number\":\"143\",\"meta_data\":[{\"id\":435,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":436,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":434,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":437,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":448,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":446,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":443,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":445,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"56\"},{\"id\":444,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":441,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":447,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":442,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":438,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":140,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"40.00\",\"subtotal_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":142,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1026,\"key\":\"Items\",\"value\":\"Polo &times; 2\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 2\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/143\\/?pay_for_order=true&key=wc_order_xB7OMB75HmXLh\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:19:49\",\"date_modified_gmt\":\"2024-12-31T17:20:07\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/143\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => No se ha facilitado una URL válida.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:22:55+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => fa372300e3e7be43cc9ae26f1eef6326
+            [Date] => Dic 31, 2024 @ 17:22
+            [URL] => http://127.0.0.1:8000/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 0.218
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => wT1pTlNY/uQfhq2NhibYMC9N81G8S5QyoHkuLQDrPfA=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => fa372300e3e7be43cc9ae26f1eef6326
+                        )
+
+                )
+
+            [Body] => {\"id\":144,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:21:40\",\"date_modified\":\"2024-12-31T12:21:43\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_QZsaIIuBpedYE\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4dd9fea638c8506589640eb571cfc4b8\",\"number\":\"144\",\"meta_data\":[{\"id\":450,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":451,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":449,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":452,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":463,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":461,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":458,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":460,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"58\"},{\"id\":459,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":456,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":462,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":457,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":464,\"key\":\"custom_field\",\"value\":\"custom_value\"},{\"id\":453,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":143,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"40.00\",\"subtotal_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":145,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1047,\"key\":\"Items\",\"value\":\"Polo &times; 2\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 2\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/144\\/?pay_for_order=true&key=wc_order_QZsaIIuBpedYE\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:21:40\",\"date_modified_gmt\":\"2024-12-31T17:21:43\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/144\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => No se ha facilitado una URL válida.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:25:00+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 503e8fccab2ec97ecd04268025439746
+            [Date] => Dic 31, 2024 @ 17:25
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.24793
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => +KXgc1aUJgWKFlNlEd4eWmWDDy+LVZpqtHPALsRURcU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 503e8fccab2ec97ecd04268025439746
+                        )
+
+                )
+
+            [Body] => {\"id\":145,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:22:54\",\"date_modified\":\"2024-12-31T12:23:41\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_hAQYHXtDseYHr\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4dd9fea638c8506589640eb571cfc4b8\",\"number\":\"145\",\"meta_data\":[{\"id\":466,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":467,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":465,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":468,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":479,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":477,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":474,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":476,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"61\"},{\"id\":475,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":472,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":478,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":473,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":480,\"key\":\"custom_field\",\"value\":\"custom_value\"},{\"id\":469,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":146,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"40.00\",\"subtotal_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":149,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1074,\"key\":\"Items\",\"value\":\"Polo &times; 2\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 2\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/145\\/?pay_for_order=true&key=wc_order_hAQYHXtDseYHr\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:22:54\",\"date_modified_gmt\":\"2024-12-31T17:23:41\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/145\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:25:00 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X4fa68733855526378030520133b0c7b9
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:25:35+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 21f64ccc98ea75be005ee303bdf66577
+            [Date] => Dic 31, 2024 @ 17:25
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.22571
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => RO9Ujql2LzAXn9k+wQvhUw5rs+ngzKdG6CJQaEE3ilE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 21f64ccc98ea75be005ee303bdf66577
+                        )
+
+                )
+
+            [Body] => {\"id\":146,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:24:59\",\"date_modified\":\"2024-12-31T12:25:33\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_Wa0wus0IeEMOS\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4dd9fea638c8506589640eb571cfc4b8\",\"number\":\"146\",\"meta_data\":[{\"id\":482,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":483,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":481,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":484,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":495,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":493,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":490,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":492,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"63\"},{\"id\":491,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":488,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":494,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":489,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":496,\"key\":\"custom_field\",\"value\":\"custom_value\"},{\"id\":485,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":150,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"40.00\",\"subtotal_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":152,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1095,\"key\":\"Items\",\"value\":\"Polo &times; 2\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 2\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/146\\/?pay_for_order=true&key=wc_order_Wa0wus0IeEMOS\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:24:59\",\"date_modified_gmt\":\"2024-12-31T17:25:33\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/146\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:25:35 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X75786515fa17a6cde76f1b1be8dd502d
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:27:46+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => a7db2654efb470aca37fe759224e4186
+            [Date] => Dic 31, 2024 @ 17:27
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.33209
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => +S7vW0mNXrwhjAT1n1xa+PiY5zUIMuT5X3zUht36mEE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => a7db2654efb470aca37fe759224e4186
+                        )
+
+                )
+
+            [Body] => {\"id\":147,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:26:54\",\"date_modified\":\"2024-12-31T12:27:01\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_3Rm3lePLz8JvX\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"4dd9fea638c8506589640eb571cfc4b8\",\"number\":\"147\",\"meta_data\":[{\"id\":498,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":499,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":497,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":500,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":511,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":509,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":506,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":508,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"65\"},{\"id\":507,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":504,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":510,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":505,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":512,\"key\":\"executionId\",\"value\":\"\"},{\"id\":501,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":153,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":2,\"tax_class\":\"\",\"subtotal\":\"40.00\",\"subtotal_tax\":\"0.00\",\"total\":\"40.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":155,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1116,\"key\":\"Items\",\"value\":\"Polo &times; 2\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 2\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/147\\/?pay_for_order=true&key=wc_order_3Rm3lePLz8JvX\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:26:54\",\"date_modified_gmt\":\"2024-12-31T17:27:01\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/147\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:27:46 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X0096e4647df200a6933706f282d34d97
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:28:40+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9722ec00caeccda63482a2dbd4d076ea
+            [Date] => Dic 31, 2024 @ 17:28
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.18072
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 1d0TKK58xSX+ueL6fOfqhsAv7qgZDoC3MI/u/bBoJ0s=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9722ec00caeccda63482a2dbd4d076ea
+                        )
+
+                )
+
+            [Body] => {\"id\":148,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:27:45\",\"date_modified\":\"2024-12-31T12:28:36\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_MV6iwYeJ7IAPE\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"148\",\"meta_data\":[{\"id\":514,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":515,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":513,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":516,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":527,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":525,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":522,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":524,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"69\"},{\"id\":523,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":520,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":526,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":521,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":528,\"key\":\"executionId\",\"value\":\"\"},{\"id\":517,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":158,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":161,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1158,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/148\\/?pay_for_order=true&key=wc_order_MV6iwYeJ7IAPE\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:27:45\",\"date_modified_gmt\":\"2024-12-31T17:28:36\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/148\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:28:40 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xb39b1d84199f1c10f636942e054bece5
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:30:34+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 0b06a9ef990b0eb4e1a6be7ec4d52e2d
+            [Date] => Dic 31, 2024 @ 17:30
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.25956
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => lmfXcAhHYZlPJXAkJ1JxwPQm3q3WcWJ1Hpsy9dQNJHo=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 0b06a9ef990b0eb4e1a6be7ec4d52e2d
+                        )
+
+                )
+
+            [Body] => {\"id\":149,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:28:59\",\"date_modified\":\"2024-12-31T12:29:17\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_UUzFK6E4kAnLI\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"149\",\"meta_data\":[{\"id\":530,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":531,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":529,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":532,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":543,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":541,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":538,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":540,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"72\"},{\"id\":539,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":536,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":542,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":537,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":544,\"key\":\"executionId\",\"value\":\"\"},{\"id\":533,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":162,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":165,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1185,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/149\\/?pay_for_order=true&key=wc_order_UUzFK6E4kAnLI\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:28:59\",\"date_modified_gmt\":\"2024-12-31T17:29:17\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/149\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:30:33 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X4a8ced3eb8d2bfe4882c4ee6a0659047
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:33:20+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 9ba80c03da8bc3e3cc0c5fc4fcc89bd3
+            [Date] => Dic 31, 2024 @ 17:33
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.16926
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => F+M7GPYWKggGxqw64BBbl1TD16g4WsdkOoC8iIKXM6w=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 9ba80c03da8bc3e3cc0c5fc4fcc89bd3
+                        )
+
+                )
+
+            [Body] => {\"id\":150,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:30:32\",\"date_modified\":\"2024-12-31T12:32:46\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_nH3M1J3GF677o\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"150\",\"meta_data\":[{\"id\":546,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":547,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":545,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":548,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":559,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":557,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":554,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":556,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"76\"},{\"id\":555,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":552,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":558,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":553,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":560,\"key\":\"executionId\",\"value\":\"test\"},{\"id\":549,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":166,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":170,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1218,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/150\\/?pay_for_order=true&key=wc_order_nH3M1J3GF677o\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:30:32\",\"date_modified_gmt\":\"2024-12-31T17:32:46\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/150\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:33:20 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X272b0d1ee088a5eebe925dfee42bbdef
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:36:22+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 78fe5b3644af13a4e5c1dd2c63f1eddb
+            [Date] => Dic 31, 2024 @ 17:36
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.21199
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => hoonxqeroPD90xhOTnZLEov/PhCEDFd29OJIqMEtOdk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 78fe5b3644af13a4e5c1dd2c63f1eddb
+                        )
+
+                )
+
+            [Body] => {\"id\":151,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:34:21\",\"date_modified\":\"2024-12-31T12:35:10\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_ofjUQXPXOqavZ\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"151\",\"meta_data\":[{\"id\":562,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":563,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":561,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":564,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":575,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":573,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":570,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":572,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"80\"},{\"id\":571,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":568,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":574,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":569,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":565,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":171,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":175,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1251,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/151\\/?pay_for_order=true&key=wc_order_ofjUQXPXOqavZ\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:34:21\",\"date_modified_gmt\":\"2024-12-31T17:35:10\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/151\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:36:22 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xfedba18b462c2508aa7425ad48d65ca1
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:39:33+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 463962cedd152424b427ac8ad7b9a53e
+            [Date] => Dic 31, 2024 @ 17:39
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.26688
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => MlEIIepfvqKqx8UCtveie6WjskzXWokGIe/7i6DGZAw=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 463962cedd152424b427ac8ad7b9a53e
+                        )
+
+                )
+
+            [Body] => {\"id\":152,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:38:14\",\"date_modified\":\"2024-12-31T12:38:28\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_qZd0Mfp99ncUT\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"152\",\"meta_data\":[{\"id\":577,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":578,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":576,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":579,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":590,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":588,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":585,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":587,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"84\"},{\"id\":586,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":583,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":589,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":584,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":580,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":176,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":179,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1278,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/152\\/?pay_for_order=true&key=wc_order_qZd0Mfp99ncUT\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:38:14\",\"date_modified_gmt\":\"2024-12-31T17:38:28\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/152\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:39:33 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X8f9c107c5cd9d21cb94e4aa7a7ddef95
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:39:34+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => df76a0276925ab7ab5dc8eecad348f50
+            [Date] => Dic 31, 2024 @ 17:39
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 0.95438
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => JmQUl1fHoPuJtFX0aqOB9nS4lFdUt5Bh4SJ1OlLyiCI=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => df76a0276925ab7ab5dc8eecad348f50
+                        )
+
+                )
+
+            [Body] => {\"id\":153,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:38:43\",\"date_modified\":\"2024-12-31T12:38:53\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_RgboP6rlfmGr1\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"153\",\"meta_data\":[{\"id\":592,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":593,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":591,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":594,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":605,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":603,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":600,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":602,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"87\"},{\"id\":601,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":598,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":604,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":599,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":595,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":180,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":183,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1305,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/153\\/?pay_for_order=true&key=wc_order_RgboP6rlfmGr1\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:38:43\",\"date_modified_gmt\":\"2024-12-31T17:38:53\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/153\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:39:34 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X904b760d72c5d2a978977d73a18ddefc
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T17:44:14+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 57143bdf65161b5a0239d3aee057f171
+            [Date] => Dic 31, 2024 @ 17:44
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.17604
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 8bkZz8RtHMAqUE7w+KIE/hObqs7Qfu3KVNDu4+++6m4=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 57143bdf65161b5a0239d3aee057f171
+                        )
+
+                )
+
+            [Body] => {\"id\":154,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T12:39:32\",\"date_modified\":\"2024-12-31T12:42:44\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_XCqgyWPwLx5Bv\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"154\",\"meta_data\":[{\"id\":607,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":608,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":606,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":609,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":620,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":618,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"1\"},{\"id\":615,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":617,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"90\"},{\"id\":616,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":613,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":619,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":614,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":610,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":184,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":187,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1332,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/154\\/?pay_for_order=true&key=wc_order_XCqgyWPwLx5Bv\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T17:39:32\",\"date_modified_gmt\":\"2024-12-31T17:42:44\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/154\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 17:44:14 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X4f588b58cca75f77103a0f1da91f8f71
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:22:45+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 7186bce515ada19461e3461ded1b1207
+            [Date] => Dic 31, 2024 @ 18:22
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.25195
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => qBlEKzKdySrtwsO9ClVsN7/d4rVuNZXV+BlH5ORG6Hs=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 7186bce515ada19461e3461ded1b1207
+                        )
+
+                )
+
+            [Body] => {\"id\":155,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:21:37\",\"date_modified\":\"2024-12-31T13:21:48\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_yznHFlye91tgf\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"155\",\"meta_data\":[{\"id\":622,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":623,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":621,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":624,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":635,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":633,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":630,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":632,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"2\"},{\"id\":631,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":628,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":634,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":629,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":625,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":188,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":191,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1359,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/155\\/?pay_for_order=true&key=wc_order_yznHFlye91tgf\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:21:37\",\"date_modified_gmt\":\"2024-12-31T18:21:48\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/155\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:22:45 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xc9c7d3ec88baa4fcea5a0c01ba711f9e
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:24:44+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => db7eaca516377d9ff94d521eb34f6ba8
+            [Date] => Dic 31, 2024 @ 18:24
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.3051
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 1vO+eH1ZKIxMRYIIbjZaU6sc+In1Xg2phemxrfa78G8=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => db7eaca516377d9ff94d521eb34f6ba8
+                        )
+
+                )
+
+            [Body] => {\"id\":156,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:24:13\",\"date_modified\":\"2024-12-31T13:24:22\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_eHimACrj5oCEn\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"156\",\"meta_data\":[{\"id\":637,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":638,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":636,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":639,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":650,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":648,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":645,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":647,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"5\"},{\"id\":646,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":643,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":649,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":644,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":640,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":192,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":195,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1386,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/156\\/?executionId=123&pay_for_order=true&key=wc_order_eHimACrj5oCEn\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:24:13\",\"date_modified_gmt\":\"2024-12-31T18:24:22\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/156\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:24:44 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xb86a28ac9d5bdc897056e5c7f8816fa9
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:26:46+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e3a83dfcdc8327bce78ea686ae4a72c9
+            [Date] => Dic 31, 2024 @ 18:26
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.1742
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => ZuiXhHT22ggQFxqPaVrV5EizgxzXi7JmwsYy0fzdJ7g=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => e3a83dfcdc8327bce78ea686ae4a72c9
+                        )
+
+                )
+
+            [Body] => {\"id\":157,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:24:34\",\"date_modified\":\"2024-12-31T13:25:47\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_1xI1OJrZJnml4\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"157\",\"meta_data\":[{\"id\":652,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":653,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":651,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":654,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":665,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":663,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":660,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":662,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"9\"},{\"id\":661,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":658,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":664,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":659,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":655,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":196,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":200,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1419,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/157\\/?pay_for_order=true&key=wc_order_1xI1OJrZJnml4\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:24:34\",\"date_modified_gmt\":\"2024-12-31T18:25:47\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/157\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:26:46 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xa0a604a37d72e6d301268eeb1f62cb02
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:30:48+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 71b990caa242ebf027a782d246f04433
+            [Date] => Dic 31, 2024 @ 18:30
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.14711
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => tYqFjdPimWXoo0A9EyFbCau2MNxYCfpKTqvX3tWNlWY=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 71b990caa242ebf027a782d246f04433
+                        )
+
+                )
+
+            [Body] => {\"id\":158,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:28:46\",\"date_modified\":\"2024-12-31T13:28:55\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_uCSYvD0amE99i\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"158\",\"meta_data\":[{\"id\":667,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":668,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":666,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":669,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":680,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":678,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":675,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":677,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"12\"},{\"id\":676,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":673,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":679,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":674,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":681,\"key\":\"executionId\",\"value\":\"yolo\"},{\"id\":670,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":201,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":204,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1446,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/158\\/?pay_for_order=true&key=wc_order_uCSYvD0amE99i\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:28:46\",\"date_modified_gmt\":\"2024-12-31T18:28:55\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/158\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:30:48 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => X3c7e6124d4318e902cf4dfb9d1ec781b
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:32:49+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => c7bbab229941a187f43a8cdacf391e02
+            [Date] => Dic 31, 2024 @ 18:32
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.18303
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => YaMFMgTYBdalKVEgz2J+qRNGSN6qSNcqYPAj/szjgDk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => c7bbab229941a187f43a8cdacf391e02
+                        )
+
+                )
+
+            [Body] => {\"id\":159,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:32:09\",\"date_modified\":\"2024-12-31T13:32:26\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_p5gi8E1XMo9kQ\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"159\",\"meta_data\":[{\"id\":683,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":684,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":682,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":685,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":696,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":694,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":691,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":693,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"15\"},{\"id\":692,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":689,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":695,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":690,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":697,\"key\":\"executionId\",\"value\":\"123\"},{\"id\":686,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":205,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":208,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1473,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/159\\/?pay_for_order=true&key=wc_order_p5gi8E1XMo9kQ\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:32:09\",\"date_modified_gmt\":\"2024-12-31T18:32:26\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/159\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:32:49 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xf716a68e842428ef950b27c1b98e5e51
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:36:22+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => eb828f82d28e488943501ceb9dbad7d2
+            [Date] => Dic 31, 2024 @ 18:36
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.23249
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => 5NVwdioGf4oDHAw7LfV530DjOk1rpWEVUOqLXTSfPCc=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => eb828f82d28e488943501ceb9dbad7d2
+                        )
+
+                )
+
+            [Body] => {\"id\":160,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:34:34\",\"date_modified\":\"2024-12-31T13:34:51\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_2mQdO7nWEYxl8\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"160\",\"meta_data\":[{\"id\":699,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":700,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":698,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":701,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":712,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":710,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":707,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":709,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"19\"},{\"id\":708,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":705,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":711,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":706,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":713,\"key\":\"executionId\",\"value\":\"123\"},{\"id\":702,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":209,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":213,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1506,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/160\\/?pay_for_order=true&key=wc_order_2mQdO7nWEYxl8\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:34:34\",\"date_modified_gmt\":\"2024-12-31T18:34:51\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/160\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:36:21 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xe808611aa7bd061e1103a424181addf8
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)
+2024-12-31T18:39:07+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => fc5c5f959370d85e3166e786cdf0c9f9
+            [Date] => Dic 31, 2024 @ 18:39
+            [URL] => https://e603-157-100-108-40.ngrok-free.app/api/v1/apps/e0338a61-5e9e-4535-9a2a-8d35aad91bb2/woocommerce/webhooks/orders/created
+            [Duration] => 1.17461
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/9.5.1 Hookshot (WordPress/6.7.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://127.0.0.1:8080/
+                            [X-WC-Webhook-Topic] => order.created
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => VsQfvlDJcjcyMfkO6QMTmuoxTfjRLr4Gm/tHuQIRtKk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => fc5c5f959370d85e3166e786cdf0c9f9
+                        )
+
+                )
+
+            [Body] => {\"id\":161,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"USD\",\"version\":\"9.5.1\",\"prices_include_tax\":false,\"date_created\":\"2024-12-31T13:36:20\",\"date_modified\":\"2024-12-31T13:37:37\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_hBDt2DRO1XxDF\",\"billing\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"email\":\"miguelbonifaz126@gmail.com\",\"phone\":\"\"},\"shipping\":{\"first_name\":\"Miguel\",\"last_name\":\"Bonifaz\",\"company\":\"\",\"address_1\":\"km 81\\/2 via daulle\",\"address_2\":\"\",\"city\":\"guayaquil\",\"state\":\"EC-G\",\"postcode\":\"090606\",\"country\":\"EC\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"127.0.0.1\",\"customer_user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\",\"created_via\":\"store-api\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"221d77db7fef8117c6a72689bfa23f4d\",\"number\":\"161\",\"meta_data\":[{\"id\":715,\"key\":\"_coupons_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":716,\"key\":\"_fees_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":714,\"key\":\"_shipping_hash\",\"value\":\"9d4568c009d203ab10e33ea9953a0264\"},{\"id\":717,\"key\":\"_taxes_hash\",\"value\":\"d751713988987e9331980363e24189ce\"},{\"id\":728,\"key\":\"_wc_order_attribution_device_type\",\"value\":\"Desktop\"},{\"id\":726,\"key\":\"_wc_order_attribution_session_count\",\"value\":\"2\"},{\"id\":723,\"key\":\"_wc_order_attribution_session_entry\",\"value\":\"http:\\/\\/127.0.0.1:8080\\/\"},{\"id\":725,\"key\":\"_wc_order_attribution_session_pages\",\"value\":\"26\"},{\"id\":724,\"key\":\"_wc_order_attribution_session_start_time\",\"value\":\"2024-12-31 15:31:46\"},{\"id\":721,\"key\":\"_wc_order_attribution_source_type\",\"value\":\"typein\"},{\"id\":727,\"key\":\"_wc_order_attribution_user_agent\",\"value\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36\"},{\"id\":722,\"key\":\"_wc_order_attribution_utm_source\",\"value\":\"(direct)\"},{\"id\":729,\"key\":\"executionId\",\"value\":\"123\"},{\"id\":718,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":214,\"name\":\"Polo\",\"product_id\":73,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"20.00\",\"subtotal_tax\":\"0.00\",\"total\":\"20.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-polo\",\"price\":20,\"image\":{\"id\":\"102\",\"src\":\"http:\\/\\/127.0.0.1:8080\\/wp-content\\/uploads\\/2024\\/12\\/polo-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[{\"id\":221,\"method_title\":\"Free shipping\",\"method_id\":\"free_shipping\",\"instance_id\":\"1\",\"total\":\"0.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[{\"id\":1557,\"key\":\"Items\",\"value\":\"Polo &times; 1\",\"display_key\":\"Items\",\"display_value\":\"Polo &times; 1\"}]}],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/checkout\\/order-pay\\/161\\/?pay_for_order=true&key=wc_order_hBDt2DRO1XxDF\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2024-12-31T18:36:20\",\"date_modified_gmt\":\"2024-12-31T18:37:37\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"$\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\\/161\",\"targetHints\":{\"allow\":[\"GET\",\"POST\",\"PUT\",\"PATCH\",\"DELETE\"]}}],\"collection\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/127.0.0.1:8080\\/index.php\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [access-control-allow-origin] => *
+                                    [access-control-expose-headers] => Content-Disposition
+                                    [cache-control] => no-cache, private
+                                    [content-type] => text/html; charset=UTF-8
+                                    [date] => Tue, 31 Dec 2024 18:39:07 GMT
+                                    [host] => e603-157-100-108-40.ngrok-free.app
+                                    [ngrok-agent-ips] => 157.100.108.40
+                                    [phpdebugbar-id] => Xb7fe8ceb7727c8c23eb0f91079a9f8a3
+                                    [x-powered-by] => PHP/8.2.17
+                                )
+
+                        )
+
+                    [Body] => 
+                )
+
+        )
+
+)

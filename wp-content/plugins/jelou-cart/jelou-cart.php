@@ -42,6 +42,10 @@ function jelou_cart_url_handler() {
             return;
         }
 
+        // Capturar el executionId del query string
+        $execution_id = isset($_GET['executionId']) ? sanitize_text_field($_GET['executionId']) : '';
+        error_log('executionId: ' . $execution_id);
+
         WC()->cart->empty_cart();
         
         if (preg_match('/\/jelou-cart\/([^\/]+)/', $_SERVER['REQUEST_URI'], $url_matches)) {
@@ -95,17 +99,12 @@ function jelou_cart_deactivate() {
     flush_rewrite_rules();
 }
 
-add_action( 'woocommerce_checkout_create_order', 'wp_kama_woocommerce_checkout_create_order_action', 10, 2 );
+// Para asegurarnos que es una petición REST API
+add_action('woocommerce_new_order', 'add_custom_order_data_rest', 10, 2);
 
-/**
- * Function for `woocommerce_checkout_create_order` action-hook.
- * 
- * @param  $order 
- * @param  $data  
- *
- * @return void
- */
-function wp_kama_woocommerce_checkout_create_order_action( $order, $data ){
-	error_log("Order: " . print_r($order, true));
-	error_log("Data: " . print_r($data, true));
+function add_custom_order_data_rest($order_id, $order) {
+    $execution_id = WC()->session->get('jelou_execution_id');
+    
+    $order->update_meta_data('executionId', $execution_id);
+    $order->save();
 }
