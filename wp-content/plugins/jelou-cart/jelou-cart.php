@@ -45,6 +45,9 @@ function jelou_cart_url_handler() {
         // Capturar el executionId del query string
         $execution_id = isset($_GET['executionId']) ? sanitize_text_field($_GET['executionId']) : '';
         error_log('executionId: ' . $execution_id);
+        if ($execution_id) {
+            WC()->session->set('jelou_execution_id', $execution_id);
+        }
 
         WC()->cart->empty_cart();
         
@@ -107,4 +110,5 @@ function add_custom_order_data_rest($order_id, $order) {
     
     $order->update_meta_data('executionId', $execution_id);
     $order->save();
+    error_log('order: ' . $order);
 }
