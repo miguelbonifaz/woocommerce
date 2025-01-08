@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Jelou
- * Plugin URI: 
- * Description: Plugin to add products to cart via URL and redirect to checkout
+ * Plugin URI: https://jelou.ai
+ * Description: Plugin for WooCommerce that adds products to cart via URL, redirects to checkout, and integrates with Jelou's WhatsApp bot workflow
  * Version: 1.0.0
  * Author: Jelou
  * Author URI: https://jelou.ai
- * Text Domain: jelou-cart
+ * Text Domain: jelou
  * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.2
