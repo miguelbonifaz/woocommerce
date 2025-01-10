@@ -1,0 +1,67 @@
+=== Jelou ===
+Contributors: jelou
+Tags: woocommerce, cart, whatsapp, bot, checkout
+Requires at least: 5.0
+Tested up to: 6.4
+Stable tag: 1.0.0
+Requires PHP: 7.2
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A WooCommerce plugin that enables adding products to cart via URL, redirects to checkout, and integrates with Jelou's WhatsApp bot workflow.
+
+== Description ==
+
+This plugin provides two main functionalities:
+
+1. Allows adding products to the WooCommerce cart using URL parameters and automatically redirects users to the checkout page
+2. Stores the executionId in the session and sends it back during the order creation event, enabling WhatsApp bot workflow continuation
+
+= Features =
+
+* Add products to cart via URL
+* Automatic redirect to checkout
+* WhatsApp bot workflow integration
+* Session handling for executionId
+* WooCommerce integration
+
+= Usage =
+
+Add products to cart using URLs in the following format:
+`https://your-site.com/jelou-cart/productId:quantity,productId:quantity`
+
+Example:
+`https://your-site.com/jelou-cart/123:2,456:1`
+
+This will add:
+* 2 units of product ID 123
+* 1 unit of product ID 456
+
+== Installation ==
+
+1. Upload the plugin files to the `/wp-content/plugins/jelou` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Make sure WooCommerce is installed and activated
+
+== Frequently Asked Questions ==
+
+= Does this plugin require WooCommerce? =
+
+Yes, this plugin requires WooCommerce to be installed and activated.
+
+= Can I add multiple products at once? =
+
+Yes, you can add multiple products by separating them with commas in the URL.
+
+== Screenshots ==
+1. No screenshots are required as this plugin works in the background without a visual interface. Once activated, it automatically handles cart additions via URL and WhatsApp bot integrations.
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial release
+
+== Upgrade Notice ==
+
+= 1.0.0 =
+Initial release of Jelou 
