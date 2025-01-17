@@ -6,7 +6,7 @@
  * Version: 1.0.0
  * Author: Jelou
  * Author URI: https://jelou.ai
- * Text Domain: jelou
+ * Text Domain: Jelou
  * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.2
@@ -34,7 +34,7 @@ define('JELOU_PLUGIN_URL', plugin_dir_url(__FILE__));
  * @since 1.0.0
  */
 function jelou_load_textdomain() {
-    load_plugin_textdomain('jelou', false, dirname(plugin_basename(__FILE__)) . '/languages');
+    load_plugin_textdomain('Jelou', false, dirname(plugin_basename(__FILE__)) . '/languages');
 }
 add_action('init', 'jelou_load_textdomain');
 
@@ -61,7 +61,7 @@ add_action('admin_init', 'jelou_check_woocommerce');
 function jelou_woocommerce_missing_notice() {
     ?>
     <div class="error">
-        <p><?php esc_html_e('Jelou requires WooCommerce to be installed and activated.', 'jelou'); ?></p>
+        <p><?php esc_html_e('Jelou requires WooCommerce to be installed and activated.', 'Jelou'); ?></p>
     </div>
     <?php
 }
@@ -118,7 +118,7 @@ function jelou_url_handler() {
                 } catch (Exception $e) {
                     error_log(sprintf(
                         /* translators: 1: Product ID, 2: Error message */
-                        esc_html__('Error with product ID: %1$s - %2$s', 'jelou'),
+                        esc_html__('Error with product ID: %1$s - %2$s', 'Jelou'),
                         $product_id,
                         $e->getMessage()
                     ));
@@ -132,7 +132,7 @@ function jelou_url_handler() {
         wp_safe_redirect(wc_get_checkout_url());
     } else {
         wc_add_notice(
-            esc_html__('No valid products were found to add to the cart.', 'jelou'),
+            esc_html__('No valid products were found to add to the cart.', 'Jelou'),
             'error'
         );
         wp_safe_redirect(wc_get_cart_url());
@@ -151,7 +151,7 @@ function jelou_activate() {
     if (!class_exists('WooCommerce')) {
         deactivate_plugins(plugin_basename(__FILE__));
         wp_die(
-            esc_html__('This plugin requires WooCommerce to be installed and activated.', 'jelou'),
+            esc_html__('This plugin requires WooCommerce to be installed and activated.', 'Jelou'),
             'Plugin dependency check',
             array('back_link' => true)
         );
