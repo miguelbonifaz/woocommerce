@@ -67,14 +67,35 @@ function jelou_woocommerce_missing_notice() {
 }
 
 /**
+ * Custom logging function that uses WooCommerce logging when available
+ *
+ * @param string $message The message to log
+ * @return void
+ */
+function jelou_log($message) {
+    if (!defined('WP_DEBUG') || !WP_DEBUG) {
+        return;
+    }
+
+    if (function_exists('wc_get_logger')) {
+        $logger = wc_get_logger();
+        $context = array('source' => 'jelou-cart');
+        $logger->debug($message, $context);
+    }
+}
+
+/**
  * Main function to handle the cart URL and product addition
  *
  * @since 1.0.0
  * @return void
  */
 function jelou_url_handler() {
-    // Validate request URI exists and unslash it
-    $request_uri = isset($_SERVER['REQUEST_URI']) ? wp_unslash($_SERVER['REQUEST_URI']) : '';
+    // Validate and sanitize request method
+    $request_method = isset($_SERVER['REQUEST_METHOD']) ? sanitize_text_field(wp_unslash($_SERVER['REQUEST_METHOD'])) : '';
+    
+    // Validate and sanitize request URI
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? esc_url_raw(wp_unslash($_SERVER['REQUEST_URI'])) : '';
     if (empty($request_uri) || strpos($request_uri, '/jelou-cart/') === false) {
         return;
     }
@@ -84,9 +105,10 @@ function jelou_url_handler() {
     }
 
     // Verify nonce if it's a form submission
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if (!isset($_POST['jelou_nonce']) || !wp_verify_nonce($_POST['jelou_nonce'], 'jelou_cart_action')) {
-            wp_die('Invalid request', 'Security Check', array('response' => 403));
+    if ($request_method === 'POST') {
+        $nonce = isset($_POST['jelou_nonce']) ? sanitize_text_field(wp_unslash($_POST['jelou_nonce'])) : '';
+        if (empty($nonce) || !wp_verify_nonce($nonce, 'jelou_cart_action')) {
+            wp_die(esc_html__('Invalid request', 'Jelou'), esc_html__('Security Check', 'Jelou'), array('response' => 403));
         }
     }
 
@@ -125,15 +147,14 @@ function jelou_url_handler() {
                         $products_added++;
                     }
                 } catch (Exception $e) {
-                    // Use WordPress error logging in development only
-                    if (defined('WP_DEBUG') && WP_DEBUG) {
-                        error_log(sprintf(
-                            /* translators: 1: Product ID, 2: Error message */
-                            esc_html__('Error with product ID: %1$s - %2$s', 'Jelou'),
-                            $product_id,
-                            $e->getMessage()
-                        ));
-                    }
+                    $error_message = sprintf(
+                        /* translators: 1: Product ID, 2: Error message */
+                        esc_html__('Jelou Cart - Error with product ID: %1$s - %2$s', 'Jelou'),
+                        $product_id,
+                        $e->getMessage()
+                    );
+                    jelou_log($error_message);
+                    continue;
                 }
             }
         }
