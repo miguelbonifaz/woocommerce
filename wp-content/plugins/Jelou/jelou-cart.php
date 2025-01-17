@@ -73,7 +73,9 @@ function jelou_woocommerce_missing_notice() {
  * @return void
  */
 function jelou_url_handler() {
-    if (strpos($_SERVER['REQUEST_URI'], '/jelou-cart/') === false) {
+    // Validate request URI exists and unslash it
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? wp_unslash($_SERVER['REQUEST_URI']) : '';
+    if (empty($request_uri) || strpos($request_uri, '/jelou-cart/') === false) {
         return;
     }
 
@@ -81,10 +83,17 @@ function jelou_url_handler() {
         return;
     }
 
+    // Verify nonce if it's a form submission
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        if (!isset($_POST['jelou_nonce']) || !wp_verify_nonce($_POST['jelou_nonce'], 'jelou_cart_action')) {
+            wp_die('Invalid request', 'Security Check', array('response' => 403));
+        }
+    }
+
     // Sanitize and validate executionId
     $execution_id = '';
     if (isset($_GET['executionId'])) {
-        $execution_id = sanitize_text_field($_GET['executionId']);
+        $execution_id = sanitize_text_field(wp_unslash($_GET['executionId']));
         if (!empty($execution_id)) {
             WC()->session->set('jelou_execution_id', $execution_id);
         }
@@ -93,7 +102,7 @@ function jelou_url_handler() {
     // Clear cart before adding new items
     WC()->cart->empty_cart();
     
-    if (!preg_match('/\/jelou-cart\/([^\/]+)/', $_SERVER['REQUEST_URI'], $url_matches)) {
+    if (!preg_match('/\/jelou-cart\/([^\/]+)/', $request_uri, $url_matches)) {
         wp_safe_redirect(wc_get_cart_url());
         exit;
     }
@@ -116,12 +125,15 @@ function jelou_url_handler() {
                         $products_added++;
                     }
                 } catch (Exception $e) {
-                    error_log(sprintf(
-                        /* translators: 1: Product ID, 2: Error message */
-                        esc_html__('Error with product ID: %1$s - %2$s', 'Jelou'),
-                        $product_id,
-                        $e->getMessage()
-                    ));
+                    // Use WordPress error logging in development only
+                    if (defined('WP_DEBUG') && WP_DEBUG) {
+                        error_log(sprintf(
+                            /* translators: 1: Product ID, 2: Error message */
+                            esc_html__('Error with product ID: %1$s - %2$s', 'Jelou'),
+                            $product_id,
+                            $e->getMessage()
+                        ));
+                    }
                 }
             }
         }
