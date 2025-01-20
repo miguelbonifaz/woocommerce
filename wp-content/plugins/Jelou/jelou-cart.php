@@ -216,11 +216,17 @@ function jelou_add_order_data($order_id, $order) {
     if (!$order instanceof WC_Order) {
         return;
     }
-
+    
+    $execution_id = WC()->session->get('jelou_execution_id');
+    error_log('executionId: ' . ($execution_id ? $execution_id : 'no existe'));
+    
     $execution_id = WC()->session->get('jelou_execution_id');
     if (!empty($execution_id)) {
         $order->update_meta_data('executionId', sanitize_text_field($execution_id));
         $order->save();
+        
+        // Limpiar el executionId de la sesión después de guardarlo
+        WC()->session->__unset('jelou_execution_id');
     }
 }
 add_action('woocommerce_new_order', 'jelou_add_order_data', 10, 2);
