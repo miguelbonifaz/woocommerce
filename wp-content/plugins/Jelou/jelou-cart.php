@@ -6,7 +6,6 @@
  * Author: Jelou
  * Author URI: https://jelou.ai
  * Text Domain: jelou
- * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.2
  * License: GPL v2 or later
