@@ -23,3 +23,4 @@
 [17-Jan-2025 21:46:01 UTC]   Automatic plugin updates starting...
 [17-Jan-2025 21:46:01 UTC]   Automatic plugin updates complete.
 [17-Jan-2025 21:46:01 UTC] Automatic updates complete.
+[27-Jan-2025 14:39:12 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /var/www/html/woocommerce/wp-admin/includes/plugin.php on line 2161

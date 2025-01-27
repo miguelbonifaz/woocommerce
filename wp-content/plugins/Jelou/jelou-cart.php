@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: Jelou
- * Plugin URI: https://jelou.ai
  * Description: Plugin for WooCommerce that adds products to cart via URL, redirects to checkout, and integrates with Jelou's WhatsApp bot workflow
  * Version: 1.0.0
  * Author: Jelou
@@ -218,7 +217,6 @@ function jelou_add_order_data($order_id, $order) {
     }
     
     $execution_id = WC()->session->get('jelou_execution_id');
-    error_log('executionId: ' . ($execution_id ? $execution_id : 'no existe'));
     
     $execution_id = WC()->session->get('jelou_execution_id');
     if (!empty($execution_id)) {
