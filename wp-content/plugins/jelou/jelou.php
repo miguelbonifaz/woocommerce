@@ -6,7 +6,7 @@
  * Author: Jelou
  * Author URI: https://jelou.ai
  * Text Domain: jelou
- * Requires at least: 5.0
+ * Requires at least: 4.6
  * Requires PHP: 7.2
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,16 +25,6 @@ if (!defined('ABSPATH')) {
 define('JELOU_VERSION', '1.0.0');
 define('JELOU_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('JELOU_PLUGIN_URL', plugin_dir_url(__FILE__));
-
-/**
- * Load plugin textdomain.
- *
- * @since 1.0.0
- */
-function jelou_load_textdomain() {
-    load_plugin_textdomain('jelou', false, dirname(plugin_basename(__FILE__)) . '/languages');
-}
-add_action('init', 'jelou_load_textdomain');
 
 /**
  * Verify that WooCommerce is active
@@ -77,7 +67,7 @@ function jelou_log($message) {
 
     if (function_exists('wc_get_logger')) {
         $logger = wc_get_logger();
-        $context = array('source' => 'jelou-cart');
+        $context = ['source' => 'jelou-cart'];
         $logger->debug($message, $context);
     }
 }
@@ -106,7 +96,7 @@ function jelou_url_handler() {
     if ($request_method === 'POST') {
         $nonce = isset($_POST['jelou_nonce']) ? sanitize_text_field(wp_unslash($_POST['jelou_nonce'])) : '';
         if (empty($nonce) || !wp_verify_nonce($nonce, 'jelou_cart_action')) {
-            wp_die(esc_html__('Invalid request', 'jelou'), esc_html__('Security Check', 'jelou'), array('response' => 403));
+            wp_die(esc_html__('Invalid request', 'jelou'), esc_html__('Security Check', 'jelou'), ['response' => 403]);
         }
     }
 
@@ -184,7 +174,7 @@ function jelou_activate() {
         wp_die(
             esc_html__('This plugin requires WooCommerce to be installed and activated.', 'jelou'),
             'Plugin dependency check',
-            array('back_link' => true)
+            ['back_link' => true]
         );
     }
     flush_rewrite_rules();
@@ -222,7 +212,7 @@ function jelou_add_order_data($order_id, $order) {
         $order->update_meta_data('executionId', sanitize_text_field($execution_id));
         $order->save();
         
-        // Limpiar el executionId de la sesión después de guardarlo
+        // Clear executionId from session after saving
         WC()->session->__unset('jelou_execution_id');
     }
 }
